@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SDAAPI">
+	<test thread-count="5" name="APIScenario">
+		<classes>
+			<class name="com.zurich.sda.apitesting.SDAAPI_scenarios">
+			<methods>
+			<include name="AgencyScenario " />
+				<include name="AgencypropositionScenario" />
+				<include name="AgencytypeScenario" />
+				<include name="BrokerAddressScenario" />
+				<include name="BrokerAddresLinkScenario" />
+				<include name="BrokerPropositionScenario" />
+				<include name="BrokerpropositiontypeScenario" />
+				<include name="BrokersegmentationScenario" />
+				<include name="BrokerSegmentationplScenario" />
+				<include name="DealScenario" />
+				<include name="OrgScenario1" />
+				<include name="OrganisationhierarchyScenario" />
+				<include name="ClaimScenario" />
+				<include name="ClaimExposureScenario" />
+				<include name="ClaimIndicatorsScenario" />
+				<exclude name="ClaimPartyRoleScenario" />
+				<include name="PaymentsTransactionScenario" />
+				<include name="Reservetransactions" />
+				<include name="Businesssegment" />
+				<include name="Conviction" />
+				<include name="Coverage" />
+				<include name="Coveragepremium" />
+				<include name="Coveragerisklink" />
+				<include name="Driver" />
+				<include name="Endorsement" />
+				<include name="PolicyExposure" />
+				<include name="Home" />
+				<include name="Limit" />
+				<include name="PolicyHeader" />
+				<include name="Policyholder" />
+				<include name="PolicyServicing" />
+				<include name="Preinceptionclaim" />
+				<include name="Pricingbrokered" />
+				<include name="Prciningfastflow" />
+				<include name="Riskretention" />
+				<include name="riskUnit" />
+				<include name="Transactionentry" />
+				<include name="TransactionPremium" />
+				<include name="Vehicle" />
+				<include name="VehicleDriverlink" />
+			</methods>
+		</class>
+		</classes>
+
+
+
+	</test> <!-- APIScenario -->
+</suite> <!-- SDAAPI -->
