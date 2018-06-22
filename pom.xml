@@ -4,7 +4,7 @@
 
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>SDAAPI_Automation</groupId>
-	<artifactId>SDAAPI_Automation_Testing</artifactId>
+	<artifactId>SDAAPI_Automation_Test</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
 	<dependencies>
